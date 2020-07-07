@@ -4,6 +4,8 @@ Light em' up, but efficiently !
 
 ### Some explanations on what I did:
 
+- The project was made to work with rust **stable**.
+
 - Usage of the crate `derive_more`:
 I decided to use this crate for error management without reimplementing the **Display** trait on my errors manually, it provides graceful ways to define errors.
 
@@ -13,8 +15,8 @@ I decided to use this crate for error management without reimplementing the **Di
 
 ### How to test:
 
-- **<-** Represents user inputs to `stdin`
-- **->** Represents program output to `stdout`
+- **<-** Represents user inputs to `stdin`.
+- **->** Represents program output to `stdout`.
 
 ```shell
 $ cargo run
